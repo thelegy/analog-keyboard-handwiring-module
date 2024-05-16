@@ -1,6 +1,9 @@
 ato-version: ^0.2.0
 builds:
   default:
-    entry: elec/src/analog-keyboard-handwiring-module.ato:AnalogKeyboardHandwiringModule
+    entry: elec/src/analog-keyboard-handwiring-module.ato:Board_5x5
 dependencies:
-- generics
+- name: generics
+  version_spec: '@09ad6baeaab93d53b9b6c90069ac750f4161d76f'
+  link_broken: true
+  path: elec/src/generics

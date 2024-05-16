@@ -1,0 +1,15 @@
+import LinearHallSensor from "hall.ato"
+
+component GH39FKSW from LinearHallSensor:
+    # component GH39FKSW
+    footprint = "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+    lcsc_id = "C266230"
+    mpn = "C266230"
+    # pins
+    signal VDD ~ pin 1
+    signal VOUT ~ pin 2
+    signal GND ~ pin 3
+
+    power.vcc ~ VDD
+    out ~ VOUT
+    power.gnd ~ GND

@@ -1,0 +1,5 @@
+import Power from "generics/interfaces.ato"
+
+component LinearHallSensor:
+  power = new Power
+  signal out

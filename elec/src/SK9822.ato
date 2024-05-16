@@ -1,0 +1,32 @@
+from "generics/interfaces.ato" import Power
+
+interface SPI2:
+  signal SD
+  signal CK
+  signal data ~ SD
+  signal clock ~ CK
+
+component SK9822:
+    # component SK9822
+    footprint = "SMD_6P-L5.0-W5.0-TL"
+    lcsc_id = "C2829089"
+    mpn = "C2829089"
+    # pins
+    signal SDI ~ pin 1
+    signal CKI ~ pin 2
+    signal GND ~ pin 3
+    signal VCC ~ pin 4
+    signal CKO ~ pin 5
+    signal SDO ~ pin 6
+
+    power = new Power
+    power.gnd ~ GND
+    power.vcc ~ VCC
+
+    data_in = new SPI2
+    data_in.CK ~ CKI
+    data_in.SD ~ SDI
+
+    data_out = new SPI2
+    data_out.CK ~ CKO
+    data_out.SD ~ SDO

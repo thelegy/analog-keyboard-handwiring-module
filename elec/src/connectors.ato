@@ -1,0 +1,21 @@
+component Conn1:
+  signal p1 ~ pin 1
+  footprint = "conn_1"
+  designator_prefix = "J"
+  mpn = "dnp"
+
+component Conn2:
+  signal p1 ~ pin 1
+  signal p2 ~ pin 2
+  footprint = "conn_2"
+  designator_prefix = "J"
+  mpn = "dnp"
+
+component Conn4:
+  signal p1 ~ pin 1
+  signal p2 ~ pin 2
+  signal p3 ~ pin 3
+  signal p4 ~ pin 4
+  footprint = "conn_4"
+  designator_prefix = "J"
+  mpn = "dnp"

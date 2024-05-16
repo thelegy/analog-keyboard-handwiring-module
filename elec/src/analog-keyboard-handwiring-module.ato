@@ -1,2 +1,157 @@
+from "hall.ato" import LinearHallSensor
+from "generics/interfaces.ato" import Power
+from "generics/capacitors.ato" import Capacitor
+from "connectors.ato" import Conn1, Conn2, Conn4
+
+component Arrows:
+  footprint = "arrows"
+  designator_prefix = "N"
+
+component VoidSwitchOutline:
+  footprint = "VoidSwitch"
+  designator_prefix = "N"
+
+module VoidSwitch:
+  power = new Power
+  sensor = new LinearHallSensor
+  outline = new VoidSwitchOutline
+
+  cap = new Capacitor
+  cap.value = 0.1µF +/- 10%
+  cap.package = "0805"
+  cap.power ~ power
+
+  sensor.power ~ power
+
+from "GH39FKSW.ato" import GH39FKSW
+from "SK9822.ato" import SK9822, SPI2
+
+module LED:
+  power = new Power
+
+  led = new SK9822
+  led.power ~ power
+
+  cap = new Capacitor
+  cap.value = 0.1µF +/- 10%
+  cap.package = "0805"
+  cap.power ~ power
+
+interface AKHMBus:
+  signal VCCL
+  signal GNDL
+  signal VCCH
+  signal GNDH
+
 module AnalogKeyboardHandwiringModule:
-    signal gnd
+  pled = new Power
+  phall = new Power
+
+  led_in = new SPI2
+  led_out = new SPI2
+
+  hall = new VoidSwitch
+  hall.sensor -> GH39FKSW
+  hall.power ~ phall
+
+  led = new LED
+  led.power ~ pled
+  led.led.data_in ~ led_in
+  led.led.data_out ~ led_out
+
+  bus = new AKHMBus
+  bus.VCCL ~ pled.vcc
+  bus.GNDL ~ pled.gnd
+  bus.VCCH ~ phall.vcc
+  bus.GNDH ~ phall.gnd
+
+  con_led_in = new Conn4
+  con_led_in.p1 ~ pled.gnd
+  con_led_in.p2 ~ pled.vcc
+  con_led_in.p3 ~ led_in.clock
+  con_led_in.p4 ~ led_in.data
+
+  con_led_out = new Conn4
+  con_led_out.p1 ~ pled.gnd
+  con_led_out.p2 ~ pled.vcc
+  con_led_out.p3 ~ led_out.clock
+  con_led_out.p4 ~ led_out.data
+
+  con_hall_power = new Conn2
+  con_hall_power.p1 ~ phall.gnd
+  con_hall_power.p2 ~ phall.vcc
+
+  con_hall_out = new Conn1
+  con_hall_out.p1 ~ hall.sensor.out
+
+module Row_5:
+  bus = new AKHMBus
+
+  led_in = new SPI2
+  led_out = new SPI2
+
+  key1 = new AnalogKeyboardHandwiringModule
+  key1.bus ~ bus
+
+  arrow1 = new Arrows
+
+  key2 = new AnalogKeyboardHandwiringModule
+  key2.bus ~ bus
+
+  arrow2 = new Arrows
+
+  key3 = new AnalogKeyboardHandwiringModule
+  key3.bus ~ bus
+
+  arrow3 = new Arrows
+
+  key4 = new AnalogKeyboardHandwiringModule
+  key4.bus ~ bus
+
+  arrow4 = new Arrows
+
+  key5 = new AnalogKeyboardHandwiringModule
+  key5.bus ~ bus
+
+  led_in ~ key1.led_in
+  key1.led_out ~ key2.led_in
+  key2.led_out ~ key3.led_in
+  key3.led_out ~ key4.led_in
+  key4.led_out ~ key5.led_in
+  key4.led_out ~ led_out
+
+module Board_5x5:
+  bus = new AKHMBus
+
+  led_in = new SPI2
+  led_out = new SPI2
+
+  row1 = new Row_5
+  row1.bus ~ bus
+
+  arrow1 = new Arrows
+
+  row2 = new Row_5
+  row2.bus ~ bus
+
+  arrow2 = new Arrows
+
+  row3 = new Row_5
+  row3.bus ~ bus
+
+  arrow3 = new Arrows
+
+  row4 = new Row_5
+  row4.bus ~ bus
+
+  arrow4 = new Arrows
+
+  row5 = new Row_5
+  row5.bus ~ bus
+
+  led_in ~ row1.led_in
+  row1.led_out ~ row2.led_in
+  row2.led_out ~ row3.led_in
+  row3.led_out ~ row4.led_in
+  row4.led_out ~ row5.led_in
+  row4.led_out ~ led_out
