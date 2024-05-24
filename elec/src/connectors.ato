@@ -19,3 +19,13 @@ component Conn4:
   footprint = "conn_4"
   designator_prefix = "J"
   mpn = "dnp"
+
+component ConnInter:
+  signal p1 ~ pin 1
+  signal p2 ~ pin 2
+  signal p3 ~ pin 3
+  signal p4 ~ pin 4
+  signal p5 ~ pin 5
+  footprint = "conn_inter"
+  designator_prefix = "J"
+  mpn = "dnp"
