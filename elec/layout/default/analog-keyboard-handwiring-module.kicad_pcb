@@ -86,7 +86,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(aux_axis_origin 50 50)
-		(grid_origin 58.906 66.002)
+		(grid_origin 60.795 64.097)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -213,7 +213,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C13"
-			(at 1.616446 1.975656 90)
+			(at 3.053287 -0.538815 180)
 			(layer "F.SilkS")
 			(uuid "3a7d5588-d57e-4029-8706-910a1f708769")
 			(effects
@@ -764,7 +764,7 @@
 		(uuid "04d1a8b5-dcb9-49bc-89f6-e0ad3e9f1516")
 		(at 100.875 119.925 -135)
 		(property "Reference" "U35"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "e43c9c35-0c71-4c87-a34e-ad2c2f47f5a5")
 			(effects
@@ -1734,7 +1734,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C35"
-			(at 1.616446 1.975656 90)
+			(at 3.053287 -0.538815 180)
 			(layer "F.SilkS")
 			(uuid "bba21a45-dd11-4bc9-8a99-1d6fe4aaa9b9")
 			(effects
@@ -4724,7 +4724,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C49"
-			(at 1.616446 1.975656 90)
+			(at 3.053287 -0.538815 180)
 			(layer "F.SilkS")
 			(uuid "0773c011-1928-4f00-aedf-0c6cd27d125a")
 			(effects
@@ -5913,11 +5913,11 @@
 	(footprint "lib:C0603"
 		(layer "F.Cu")
 		(uuid "29951541-04a2-473c-8623-bd21454b19e6")
-		(at 60.795 83.274 -45)
+		(at 60.795 83.147 -45)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C19"
-			(at 1.616446 1.975656 90)
+			(at 2.963485 -0.628618 180)
 			(layer "F.SilkS")
 			(uuid "c0abc126-9289-4cec-9ff0-ec14cd543c4e")
 			(effects
@@ -7542,7 +7542,7 @@
 		(uuid "3422f5b9-5796-4467-ae45-972582f028b2")
 		(at 100.875 81.825 -135)
 		(property "Reference" "U15"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "e6e64e9e-1245-42ca-8cf8-c2b1f26155bd")
 			(effects
@@ -7738,7 +7738,7 @@
 		(uuid "3458bc5b-f416-43db-b3a4-e046213c5181")
 		(at 138.975 119.925 -135)
 		(property "Reference" "U31"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "54637cb6-d351-4a43-b839-535ebbf78b2c")
 			(effects
@@ -8075,11 +8075,11 @@
 	(footprint "lib:C0603"
 		(layer "F.Cu")
 		(uuid "3590d55d-5a36-4a5d-b59e-6a25ec78b221")
-		(at 98.895 83.274 -45)
+		(at 98.895 83.147 -45)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C15"
-			(at 1.616446 1.975656 90)
+			(at 2.963485 -0.628618 180)
 			(layer "F.SilkS")
 			(uuid "8955c967-3e63-4068-b2f5-2b020dde8801")
 			(effects
@@ -8774,7 +8774,7 @@
 		(uuid "3d44563f-097c-4cfd-b3a8-258729a24789")
 		(at 62.775 138.975 -135)
 		(property "Reference" "U41"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "f330d024-b34a-4cbc-88e6-1b42f5085e89")
 			(effects
@@ -9114,7 +9114,7 @@
 		(uuid "3ebb351e-be12-4141-bcd2-633783c1ce58")
 		(at 81.825 119.925 -135)
 		(property "Reference" "U37"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "a5019c57-867a-45bb-93d7-d32e9bc0fa26")
 			(effects
@@ -10213,11 +10213,11 @@
 	(footprint "lib:C0603"
 		(layer "F.Cu")
 		(uuid "42efa80d-93b8-4811-aae6-2114c6796de5")
-		(at 136.995 83.274 -45)
+		(at 136.995 83.147 -45)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at 1.616446 1.975656 90)
+			(at 2.963485 -0.628618 180)
 			(layer "F.SilkS")
 			(uuid "2bf3bcba-a3da-4510-ac6c-3db910f42867")
 			(effects
@@ -10776,7 +10776,7 @@
 		(uuid "43f79dff-1cc8-4546-81bf-af32dbe12922")
 		(at 100.875 138.975 -135)
 		(property "Reference" "U45"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "f4e5bebf-81b5-4fe5-83be-6ccc50db1c2c")
 			(effects
@@ -11794,7 +11794,7 @@
 		(uuid "48684a44-9a10-4cf1-9763-03826da0cd71")
 		(at 119.925 119.925 -135)
 		(property "Reference" "U33"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "1a0bcba5-74df-4b8b-bf37-7d746268cf4e")
 			(effects
@@ -12445,7 +12445,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 1.167433 1.526644 90)
+			(at 2.604274 -0.089803 180)
 			(layer "F.SilkS")
 			(uuid "351225e1-808f-4566-8bc6-8d3b7c14db53")
 			(effects
@@ -12663,7 +12663,7 @@
 		(uuid "4e0140f8-fd08-47ad-bb1d-4a75ce8c7b7b")
 		(at 119.925 100.875 -135)
 		(property "Reference" "U27"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "438bc8fb-3d72-4e3e-9584-947c091b7a31")
 			(effects
@@ -13738,7 +13738,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 1.616446 1.975656 90)
+			(at 2.604274 -0.089803 180)
 			(layer "F.SilkS")
 			(uuid "83238e06-46f9-41ca-ac94-ef5c7f3fa5ad")
 			(effects
@@ -13957,7 +13957,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C17"
-			(at 1.616446 1.975656 90)
+			(at 3.053287 -0.538815 180)
 			(layer "F.SilkS")
 			(uuid "de20cd10-1ee2-4b36-a33b-eca40ff80a51")
 			(effects
@@ -14403,7 +14403,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C31"
-			(at 1.616446 1.975656 90)
+			(at 3.053287 -0.538815 180)
 			(layer "F.SilkS")
 			(uuid "d2d2892c-144c-4a47-bb72-c2e18502c410")
 			(effects
@@ -14621,7 +14621,7 @@
 		(uuid "58431877-c4fb-4b26-afd3-4529a969abeb")
 		(at 81.825 100.875 -135)
 		(property "Reference" "U23"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "c10cd2df-03d9-4393-9749-47d60e36dae1")
 			(effects
@@ -15219,7 +15219,7 @@
 		(uuid "5bc0ad40-9da0-4363-a78b-61dcc1e2b933")
 		(at 62.775 100.875 -135)
 		(property "Reference" "U21"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "c98dcae4-a785-49dc-874a-de44ce55ca26")
 			(effects
@@ -17499,7 +17499,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C45"
-			(at 1.616446 1.975656 90)
+			(at 3.053287 -0.538815 180)
 			(layer "F.SilkS")
 			(uuid "9832aa01-0027-4d17-86ed-95d7a08f1d47")
 			(effects
@@ -17717,7 +17717,7 @@
 		(uuid "698610ac-d54d-4074-abaf-88b6d48063a9")
 		(at 81.825 81.825 -135)
 		(property "Reference" "U17"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "c74289a2-2663-4d42-acda-1253a8103bff")
 			(effects
@@ -18478,7 +18478,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 1.616446 1.975656 90)
+			(at 2.604274 -0.089803 180)
 			(layer "F.SilkS")
 			(uuid "8e27a210-98ea-45cb-83e5-d176efbbf8af")
 			(effects
@@ -19098,7 +19098,7 @@
 		(uuid "70ab6ccd-8f1c-408a-9e2f-57a75fabe8aa")
 		(at 119.925 138.975 -135)
 		(property "Reference" "U47"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "fb5ec829-aee0-425d-9d15-74053172069a")
 			(effects
@@ -19496,7 +19496,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C43"
-			(at 1.616446 1.975656 90)
+			(at 3.053287 -0.538815 180)
 			(layer "F.SilkS")
 			(uuid "344d7aaf-9d4b-4f75-8541-35b98cfc147a")
 			(effects
@@ -19859,7 +19859,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C33"
-			(at 1.616446 1.975656 90)
+			(at 3.053287 -0.538815 180)
 			(layer "F.SilkS")
 			(uuid "ea00e96c-d3d4-41ed-9f24-1e47d452f078")
 			(effects
@@ -22482,7 +22482,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C23"
-			(at 1.616446 1.975656 90)
+			(at 3.053287 -0.538815 180)
 			(layer "F.SilkS")
 			(uuid "2c949668-1acd-4b30-9d3a-8bc35248af29")
 			(effects
@@ -23906,7 +23906,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C37"
-			(at 1.616446 1.975656 90)
+			(at 3.053287 -0.538815 180)
 			(layer "F.SilkS")
 			(uuid "29f6d4de-7dc6-4a09-9655-81df1005f0ed")
 			(effects
@@ -25456,11 +25456,11 @@
 	(footprint "lib:C0603"
 		(layer "F.Cu")
 		(uuid "99b29cbb-c13c-43fa-98f1-6e136f468771")
-		(at 98.895 102.324 -45)
+		(at 98.895 102.197 -45)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C25"
-			(at 1.616446 1.975656 90)
+			(at 2.963485 -0.628618 180)
 			(layer "F.SilkS")
 			(uuid "8e44cc3e-39ef-4046-a137-5bb244afcfb8")
 			(effects
@@ -25679,7 +25679,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C41"
-			(at 1.616446 1.975656 90)
+			(at 3.053287 -0.538815 180)
 			(layer "F.SilkS")
 			(uuid "3b73056c-0746-4aef-be03-ae71ddc1ee32")
 			(effects
@@ -27006,7 +27006,7 @@
 		(uuid "a983e982-1ec8-4f87-b1fb-e970e4b7ab08")
 		(at 119.925 81.825 -135)
 		(property "Reference" "U13"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "53863295-0e34-473f-9525-fb053960bf32")
 			(effects
@@ -27403,7 +27403,7 @@
 		(uuid "ac07e97f-1bbe-4309-a726-85c9ca400a90")
 		(at 138.975 81.825 -135)
 		(property "Reference" "U11"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "5bd2d1eb-5c9c-4d23-b065-268f4ce1643f")
 			(effects
@@ -27599,7 +27599,7 @@
 		(uuid "adc15261-6d5e-484b-9d9c-77a17b4a31a8")
 		(at 138.975 100.875 -135)
 		(property "Reference" "U29"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "24b41497-2869-4c0b-aa7b-8451675f73bc")
 			(effects
@@ -27796,7 +27796,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C21"
-			(at 1.616446 1.975656 90)
+			(at 3.053287 -0.538815 180)
 			(layer "F.SilkS")
 			(uuid "e08e91dc-a239-4ba8-adc5-a59b56d7a856")
 			(effects
@@ -28128,7 +28128,7 @@
 		(uuid "b20ee4ef-d8f2-460a-8fd0-e7376078bc47")
 		(at 62.775 81.825 -135)
 		(property "Reference" "U19"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "b1da3c85-f9ba-4e47-a5d4-dbbe4bb5e886")
 			(effects
@@ -28526,7 +28526,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C39"
-			(at 1.616446 1.975656 90)
+			(at 3.053287 -0.538815 180)
 			(layer "F.SilkS")
 			(uuid "0e8a46ac-35d8-472c-9d9b-f7a14212c11e")
 			(effects
@@ -29435,7 +29435,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C29"
-			(at 1.616446 1.975656 90)
+			(at 3.053287 -0.538815 180)
 			(layer "F.SilkS")
 			(uuid "2680762c-97d1-4362-aad7-83a9fffc3fc4")
 			(effects
@@ -30243,7 +30243,7 @@
 		(uuid "b8761358-fcef-4d37-97c9-6b5f24eb5833")
 		(at 100.875 100.875 -135)
 		(property "Reference" "U25"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "b6183a14-b6a8-44b2-9756-cebb06fd402f")
 			(effects
@@ -32305,7 +32305,7 @@
 		(uuid "c0874946-33d5-487a-ac86-85fdfe94f29d")
 		(at 138.975 138.975 -135)
 		(property "Reference" "U49"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "b74c3b2f-e650-49dc-a730-6e85d2e3aa52")
 			(effects
@@ -35076,7 +35076,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 1.616446 1.975656 90)
+			(at 2.604274 -0.089803 180)
 			(layer "F.SilkS")
 			(uuid "07305ab4-05db-466a-8590-11b6f3229e63")
 			(effects
@@ -35924,7 +35924,7 @@
 		(uuid "e1bb09ee-ae9b-4a1e-b788-017b7d77dfe5")
 		(at 81.825 138.975 -135)
 		(property "Reference" "U43"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "93456fa7-eb85-4034-a26d-84a9ed537c21")
 			(effects
@@ -39509,7 +39509,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C47"
-			(at 1.616446 1.975656 90)
+			(at 3.053287 -0.538815 180)
 			(layer "F.SilkS")
 			(uuid "a3c1761b-429f-450a-8c4e-8172cba1886a")
 			(effects
@@ -39868,11 +39868,11 @@
 	(footprint "lib:C0603"
 		(layer "F.Cu")
 		(uuid "f9faae3e-179c-4b15-a2d3-f3fc68751fef")
-		(at 136.995 64.224 -45)
+		(at 136.995 64.097 -45)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 1.616446 1.975656 90)
+			(at 2.514472 -0.179605 180)
 			(layer "F.SilkS")
 			(uuid "1c71229c-0d15-4b85-bdfd-3c8415ddc9f9")
 			(effects
@@ -40317,7 +40317,7 @@
 		(uuid "fb17e21c-87f3-429b-a8af-d968681107e8")
 		(at 62.775 119.925 -135)
 		(property "Reference" "U39"
-			(at 0 -2.588011 -135)
+			(at -0.898026 -2.588011 -135)
 			(layer "F.SilkS")
 			(uuid "296b5bc7-020c-4298-b3a7-1beac615503a")
 			(effects
@@ -40514,7 +40514,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C27"
-			(at 1.616446 1.975656 90)
+			(at 3.053287 -0.538815 180)
 			(layer "F.SilkS")
 			(uuid "1cb4622a-9ff8-487f-b701-5ef892276c60")
 			(effects
