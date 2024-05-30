@@ -119,7 +119,7 @@ module Row_5:
   key2.led_out ~ key3.led_in
   key3.led_out ~ key4.led_in
   key4.led_out ~ key5.led_in
-  key4.led_out ~ led_out
+  key5.led_out ~ led_out
 
 module Board_5x5:
   bus = new AKHMBus
